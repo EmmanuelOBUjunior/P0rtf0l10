@@ -267,6 +267,38 @@ ul{
     z-index: 8;
 }
 
+.about-section .about-image .img-box .about-shape{
+    width: 400px;
+    height: 500px;
+    border-left: 15px solid var(--main-color);
+    border-bottom: 15px solid var(--main-color);
+    bottom: 0;
+    left:0;
+    z-index: -1;
+}
+
+.about-section .about-image .img-box .about-shape::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 85px;
+    background-color: var(--main-color);
+    bottom: 0;
+    left: 0;
+}
+
+.about-section .about-image .img-box .about-shape::after{
+    position: absolute;
+    content: '';
+    width: 104px;
+    height: 15px;
+    background-color: var(--main-color);
+    top: 36px;
+    right: -2px;
+    transform: rotate(11deg);
+    border-top-left-radius: 20px;
+}
+
 .about-section .about-content{
     background-color: blue;
 }
