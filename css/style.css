@@ -268,10 +268,11 @@ ul{
 }
 
 .about-section .about-image .img-box .about-shape{
-    width: 400px;
-    height: 500px;
+    width: 404px;
+    height: 525px;
     border-left: 15px solid var(--main-color);
     border-bottom: 15px solid var(--main-color);
+    position: absolute;
     bottom: 0;
     left:0;
     z-index: -1;
@@ -280,17 +281,17 @@ ul{
 .about-section .about-image .img-box .about-shape::before{
     position: absolute;
     content: '';
-    width: 15px;
-    height: 85px;
+    width: 15px; 
+    height: 85%;
     background-color: var(--main-color);
     bottom: 0;
-    left: 0;
+    right: 0;
 }
 
 .about-section .about-image .img-box .about-shape::after{
     position: absolute;
-    content: '';
-    width: 104px;
+    content: ' ';
+    width: 104%;
     height: 15px;
     background-color: var(--main-color);
     top: 36px;
