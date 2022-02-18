@@ -112,6 +112,26 @@ ul{
     margin-top: 10px;
 }
 
+.section-title .line{
+    padding-top: 0px;
+}
+
+.section-title .line li{
+    display: inline-block;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    height: 3px
+}
+
+.section-title .line li:nth-of-type(1){
+    width: 64px    
+}
+.section-title .line li:nth-of-type(2){
+    width: 10px
+}
+.section-title .line li:nth-of-type(3){
+    width: 7px
+}
 
 .navbar .nav-item .nav-link span{
     width: 0;
@@ -318,12 +338,12 @@ ul{
     border-top-left-radius: 20px;
 }
 
-.about-section .about-content{
-
-}
-
 .about-section .about-image, .about-section .about-content{
     flex: 0 0 50%;
     max-width: 50%;
     padding: 20px;
+}
+
+.about-section .about-content p{
+    text-align: justify;
 }
