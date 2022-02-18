@@ -96,6 +96,16 @@ ul{
     padding: 80px 0;
 }
 
+.section-title{
+    margin-bottom: 30px;
+}
+
+.section-title .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--main-color)
+}
+
 .navbar .nav-item .nav-link span{
     width: 0;
     height: 1.5px;
