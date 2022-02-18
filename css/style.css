@@ -355,4 +355,11 @@ ul{
 .skills-item .skills-header .skills-title{
     font-size: 14px;
     font-weight: 500;
+    margin-top: 15px
+}
+
+.skills-item .skills-header .skills-percentage{
+    position: absolute;
+    top: -3px;
+    right: 0;
 }
