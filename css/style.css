@@ -415,3 +415,20 @@ ul{
     background-color: var(--black-100);
 }
 
+.service-section .service-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-section .service-item-inner{
+    box-shadow: var(--shadow-black-100);
+    padding: 50px 15px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
