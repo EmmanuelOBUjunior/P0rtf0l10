@@ -390,7 +390,7 @@ ul{
     border-radius: 5px;
     background-color: var(--main-color);
     width: 0%;
-    transition: 1s;
+    transition: all 1s ease-in-out;
 }
 
 .skills-item .skill-bar .bar-inner .progress-line::before{
