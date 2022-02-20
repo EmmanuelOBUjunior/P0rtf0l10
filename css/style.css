@@ -96,8 +96,14 @@ ul{
     padding: 80px 0;
 }
 
+.text-align{
+    text-align: center;
+}
+
 .section-title{
     margin-bottom: 30px;
+    flex: 0 0 100%;
+    max-width: 100;
 }
 
 .section-title .subtitle{
@@ -402,4 +408,9 @@ ul{
     border: 2px solid var(--main-color);
     top: -7px;
     right: 0;
+}
+
+.service-section{
+    min-height: 100vh;
+    background-color: var(--black-100);
 }
