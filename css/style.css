@@ -385,4 +385,19 @@ ul{
     position: absolute;
     top:0;
     left: 0;
+    height: 9px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    width: 90%;
+}
+
+.skills-item .skill-bar .bar-inner .progress-line::before{
+    position: absolute;
+    content: '';
+     width: 7px;
+    height: 18px;
+    background-color: var(--white);
+    border: 2px solid var(--main-color);
+    top: -7px;
+    right: 0;
 }
