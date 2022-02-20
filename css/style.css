@@ -379,6 +379,7 @@ ul{
     border-radius: 5px;
     background-color: rgba(33, 243, 26, 0.11);
     position: relative;
+    
 }
 
 .skills-item .skill-bar .bar-inner .progress-line{
@@ -388,7 +389,8 @@ ul{
     height: 9px;
     border-radius: 5px;
     background-color: var(--main-color);
-    width: 90%;
+    width: 0%;
+    transition: 1s;
 }
 
 .skills-item .skill-bar .bar-inner .progress-line::before{

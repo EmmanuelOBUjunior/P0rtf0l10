@@ -22,5 +22,5 @@ const skills_wrap = document.querySelector('.about-skills'),
     function skillsEffect()
     {
         if(!checkScroll(skills_wrap)) return;
-        skills_bar.forEach((skill) => (skill.getElementByClassName.width = skill.dataset.progress));
+        skills_bar.forEach((skill) => (skill.style.width = skill.dataset.progress));
     }
