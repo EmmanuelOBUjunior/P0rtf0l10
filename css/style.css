@@ -490,6 +490,7 @@ ul{
     max-width: 100%;
     padding: 20px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .portfolio .portfolio-filter button{
@@ -503,11 +504,58 @@ ul{
     border-radius: 5px;
     background-color: var(--white);
     margin-right: 20px;
-    color: var(--main-color)
+    color: var(--main-color);
+    transition: all 0.3s ease;
 
+}
+
+.portfolio .portfolio-filter button:hover{
+    background-color: var(--main-color);
+    color: var(--white);
+    transform: scale(105%);
 }
 
 .portfolio .portfolio-filter button.active{
     background-color: var(--main-color);
     color:var(--white);
 }
+
+.portfolio .portfolio-item{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.portfolio .portfolio-item-inner{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: var(--shadow-black-100);
+    cursor: pointer;
+    position: relative;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio .portfolio-item-inner .portfolio-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-info h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
