@@ -507,3 +507,7 @@ ul{
 
 }
 
+.portfolio .portfolio-filter button.active{
+    background-color: var(--main-color);
+    color:var(--white);
+}
