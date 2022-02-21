@@ -485,3 +485,25 @@ ul{
     transition:all 1s ease;
 }
 
+.portfolio .portfolio-filter{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio .portfolio-filter button{
+    margin-top: -20px;
+    text-transform: uppercase;
+    outline: none;
+    border: 1px solid;
+    border-color: var(--main-color);
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: var(--white);
+    margin-right: 20px;
+    color: var(--main-color)
+
+}
+
